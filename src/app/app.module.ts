@@ -20,7 +20,8 @@ import { ContactComponent } from './contact/contact.component';
     AboutComponent,
     ProductsComponent,
     BlogsComponent,
-    ContactComponent
+    ContactComponent,
+
   ],
   imports: [
     BrowserModule,

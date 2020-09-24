@@ -1,1 +1,34 @@
-@import "~bootstrap/dist/css/bootstrap.css"
+@import "~bootstrap/dist/css/bootstrap.css";
+
+/* font-family: 'Baloo Tammudu 2', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Ubuntu', sans-serif; */
+
+.column {
+float: left;
+width: 33.33%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}
+
+
+.about {
+
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.landingpic {
+background-image: url("https://www.pakistangulfeconomist.com/wp-content/uploads/2017/12/Developing-livestock-in-Balochistan.jpg") no-repeat center center scroll;
+
+position: relative;
+}
+
+.card {
+    border-radius: 1rem ;
+}
